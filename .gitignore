@@ -1,0 +1,54 @@
+# --- Dependencias / entornos ---
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.env
+.env.local
+
+# --- Sesiones y credenciales ---
+sessions/*.json
+!sessions/.gitkeep
+accounts.json
+mp.json
+*.pem
+*.key
+
+# --- Salidas generadas (se regeneran) ---
+salida/
+deudas_todas.xlsx
+enrich_cache.json
+
+# --- Exploración / debug ---
+_exploracion/*.html
+_exploracion/*.txt
+_exploracion/*.json
+_exploracion/mp_*.html
+_exploracion/caja*.html
+_exploracion/caja*.mjs
+_exploracion/*.mjs
+!_exploracion/.gitkeep
+
+# --- Logs / temporales ---
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- OS ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
